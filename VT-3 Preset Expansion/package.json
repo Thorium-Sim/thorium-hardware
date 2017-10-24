@@ -1,0 +1,16 @@
+{
+  "name": "testnodelaunchpad",
+  "version": "1.0.0",
+  "description": "Midi interface between Roland VT-3 and Novation Launchpad for increased presets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "reset": "node SetDefaultPresetsFile.js"
+  },
+  "author": "Matt Ricks",
+  "license": "ISC",
+  "dependencies": {
+    "easymidi": "0.0.3",
+    "midi": "^0.9.5"
+  }
+}

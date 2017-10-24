@@ -1,2 +1,5 @@
-node_modules
-npm-debug*
+RPi/node_modules
+RPi/npm-debug*
+
+VT-3\ Preset\ Expansion/node_modules
+VT-3\ Preset\ Expansion/npm-debug*
