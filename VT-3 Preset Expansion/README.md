@@ -12,8 +12,9 @@ The Purpose of this project is to expand the amount of voice presets for the Rol
 2. Install the VT-3 Driver
 3. Plug in Launchpad Mini
 4. Plug in VT-3
-5. Run npm install in terminal
-6. Run npm start in terminal
+5. Run 'npm install' in terminal
+6. Run 'node reset.js' in terminal
+7. Run 'npm start' in terminal
 
 -----
 

@@ -1,7 +1,8 @@
 //import { importFile, updateFile } from 'helperFunctions';
-require("./helperFunctions");
+var helperScripts = require("./helperFunctions");
 
-var presets = importFile();
+//var presets = helperScripts.readFile();
+var presets;
 
 //To reset (or setup) the presets file
 presets = [0, 1];
@@ -19,4 +20,4 @@ for (var x = 0; x < 72; x++) {
         presets[1][x][y].midi = { "pitch": 64, "formant": 64, "mixbalance": 127, "robot": 0, "bypass": 0, "reverb": 0 };
     }
 }
-updateFile();
+helperScripts.updateFile(presets);

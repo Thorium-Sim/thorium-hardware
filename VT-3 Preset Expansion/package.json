@@ -4,7 +4,8 @@
   "description": "Midi interface between Roland VT-3 and Novation Launchpad for increased presets",
   "main": "index.js",
   "scripts": {
-    "start": "node index"
+    "start": "node index.js",
+    "reset": "node SetDefaultPresetsFile.js"
   },
   "author": "Matt Ricks",
   "license": "ISC",
